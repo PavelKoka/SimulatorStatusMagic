@@ -144,12 +144,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		5516355F19E3FF3D001F636D = {
+		2E74B50C25AE233500A5393E /* Sources */ = {
 			isa = PBXGroup;
 			children = (
 				5516356A19E3FF3D001F636D /* SimulatorStatusMagic */,
 				DDACF30819E83F06004FCB30 /* SDStatusBarManager */,
 				72ECF7261BAAC33A0071D401 /* SimulatorStatusMagiciOS */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		5516355F19E3FF3D001F636D = {
+			isa = PBXGroup;
+			children = (
+				2E74B50C25AE233500A5393E /* Sources */,
 				5516356919E3FF3D001F636D /* Products */,
 			);
 			indentWidth = 2;
@@ -243,7 +251,8 @@
 				0104F36E25A3781F00FF608A /* SDStatusBarOverriderPost14_0.h */,
 				0104F36F25A3781F00FF608A /* SDStatusBarOverriderPost14_0.m */,
 			);
-			path = SDStatusBarManager;
+			name = SDStatusBarManager;
+			path = Sources/SDStatusBarManager;
 			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
